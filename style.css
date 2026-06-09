@@ -1,0 +1,77 @@
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center; 
+}
+
+a{
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 5px 20px;
+}
+
+.xxx{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    color:rgb(169, 108, 171);
+}
+
+.www{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 10px 15px;
+    
+}
+
+.eee{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(169, 108, 171);
+    color: white;
+    font-weight: 900;
+    padding: 5px 10px;
+}
+form {
+    display: flex;
+    flex-direction: column; /* จัดให้ label และ input เรียงลงมาเป็นแนวตั้ง */
+    align-items: center;    /* จัดของทุกชิ้นใน form ให้อยู่กึ่งกลางแนวขวาง */
+}
+
+.aaa{
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+}
