@@ -22,19 +22,20 @@
             <input class="eee" type="submit" value="คำนวณ">
         </form>
 
+        <div class="aaa">
 
-        <?php
-        if (isset($_GET["num"])) {
-            $num = $_GET["num"];
-            $i = 1;
-            while ($i <= 12) {
-                echo $num . " x " . $i . " = " . $num * $i . "<br>";
-                $i++;
+            <?php
+            if (isset($_GET["num"])) {
+                $num = $_GET["num"];
+                $i = 1;
+                while ($i <= 12) {
+                    echo $num . " x " . $i . " = " . $num * $i . "<br>";
+                    $i++;
+                }
             }
-        }
-        ?>
-
-    </div>
+            ?>
+            <div>
+        </div>
 
 
 </body>
