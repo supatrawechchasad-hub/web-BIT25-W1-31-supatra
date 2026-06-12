@@ -27,6 +27,7 @@
             <?php
             if (isset($_GET["num"])) {
                 $num = $_GET["num"];
+                echo "สูตรคูณแม่ " . $num . "<br>";
                 $i = 1;
                 while ($i <= 12) {
                     echo $num . " x " . $i . " = " . $num * $i . "<br>";

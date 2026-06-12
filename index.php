@@ -26,7 +26,7 @@
             <?php
             if (isset($_GET["num"])) {
                 $num = $_GET["num"];
-                echo "สูตรคูณแม่" . $num . "<br>";
+                echo "สูตรคูณแม่ " . $num . "<br>";
                 //.เริ่ม จบ เพิ่มทีละ1
                 for ($i = 1; $i <= 12; $i++) {
                     echo $num . " x " . $i . " = " . $num * $i . "<br>";
